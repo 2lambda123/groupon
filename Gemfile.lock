@@ -27,7 +27,7 @@ GEM
       metaclass (~> 0.0.1)
     multi_json (1.7.2)
     multi_xml (0.5.3)
-    rake (10.0.4)
+    rake (13.1.0)
     shoulda (3.4.0)
       shoulda-context (~> 1.0, >= 1.0.1)
       shoulda-matchers (~> 1.0, >= 1.4.1)
