@@ -1,0 +1,180 @@
+repo_name: 2lambda123/groupon
+report_id: 4a0a410e1a23b209bc0609d7baf856d0
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:55:51+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/groupon
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/groupon
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/.github/workflows/snorkell-auto-documentation.yml
+  detection_source: ".github/workflows/snorkell-auto-documentation.yml"
+  last_updated_by: snorkell-ai[bot]
+  last_updated_on: 2023-12-20 11:03:57.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/groupon.gemspec
+  detection_source: groupon.gemspec
+  last_updated_by: Wynn Netherland
+  last_updated_on: 2010-05-28 04:05:53.000000000 Z
+- name: fakeweb
+  description: FakeWeb is a helper for faking web requests in Ruby
+  package_url: https://rubygems.org/fakeweb
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18874/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Stephen St. Martin
+  last_updated_on: 2013-04-04 03:07:13.000000000 Z
+- name: hashie
+  description: Hashie is a collection of classes and mixins that make hashes more
+    powerful
+  package_url: https://rubygems.org/hashie
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18857/default_8ed4d900247cd3cbcebc45138514f25fd80b6c4b.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Stephen St. Martin
+  last_updated_on: 2013-04-04 03:07:13.000000000 Z
+- name: httparty
+  description: Makes http fun! Also
+  package_url: https://rubygems.org/httparty
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18832/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Stephen St. Martin
+  last_updated_on: 2013-04-04 03:07:13.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: httparty has multipart/form-data request tampering
+      vulnerability'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-g47j-3m2m-74qv
+    detected_date: Jan 6
+    severity: moderate
+    first_patched: 
+  - name: httparty has multipart/form-data request tampering vulnerability
+    cve_id: CVE-2024-22049
+    cve_url: https://github.com/advisories/GHSA-5pq7-52mg-hr42
+    detected_date: Jan 4
+    severity: moderate
+    first_patched: 0.21.0
+- name: jnunemaker-matchy
+  description: RSpec-esque matchers for use in Test::Unit
+  package_url: https://rubygems.org/jnunemaker-matchy
+  version: 0.4.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19253/default_98f442e49a9cf6ba040115f23dce11c5a9c322be.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Wynn Netherland
+  last_updated_on: 2013-04-04 13:35:17.000000000 Z
+- name: mg
+  description: Minimal gem
+  package_url: https://rubygems.org/mg
+  version: 0.0.8
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19800/default_8c2b1973aa2be7e62630120d1cb15589f4cbf796.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Wynn Netherland
+  last_updated_on: 2010-05-28 04:05:53.000000000 Z
+- name: shoulda
+  description: Making tests easy on the fingers and eyes
+  package_url: https://rubygems.org/shoulda
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18837/default_669e0ebb464c584b580cfec09e646fddff70c02a.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Stephen St. Martin
+  last_updated_on: 2013-04-04 03:07:13.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  version: 0.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/2lambda123/groupon/blob/master/Gemfile.lock
+  detection_source: groupon.gemspec
+  last_updated_by: Stephen St. Martin
+  last_updated_on: 2013-04-04 03:07:13.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary file read vulnerability in yard server
+    cve_id: CVE-2017-17042
+    cve_url: https://github.com/advisories/GHSA-gj4p-3wh3-2rmf
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.9.11
+  - name: Path Traversal vulnerability that affects yard
+    cve_id: CVE-2019-1020001
+    cve_url: https://github.com/advisories/GHSA-xfhh-rx56-rxcr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.9.20
