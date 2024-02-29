@@ -26,7 +26,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/groupon](https://github.com/2lambda123/groupon)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|01/09/24 <br/>Report generated|
+|11<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -85,7 +85,7 @@ Full tech stack [here](/techstack.md)
 |[jnunemaker-matchy](https://rubygems.org/jnunemaker-matchy)|v0.4.0|04/04/13|Wynn Netherland |N/A|N/A|
 |[mg](https://rubygems.org/mg)|v0.0.8|05/28/10|Wynn Netherland |WTFPL|N/A|
 |[shoulda](https://rubygems.org/shoulda)|v3.4.0|04/04/13|Stephen St. Martin |MIT|N/A|
-|[yard](https://rubygems.org/yard)|v0.8.5|04/04/13|Stephen St. Martin |MIT|[CVE-2017-17042](https://github.com/advisories/GHSA-gj4p-3wh3-2rmf) (High)<br/>[CVE-2019-1020001](https://github.com/advisories/GHSA-xfhh-rx56-rxcr) (High)|
+|[yard](https://rubygems.org/yard)|v0.8.5|04/04/13|Stephen St. Martin |MIT|[CVE-2017-17042](https://github.com/advisories/GHSA-gj4p-3wh3-2rmf) (High)<br/>[CVE-2019-1020001](https://github.com/advisories/GHSA-xfhh-rx56-rxcr) (High)<br/>[CVE-2024-27285](https://github.com/advisories/GHSA-8mq4-9jjh-9xrc) (Moderate)|
 
 <br/>
 <div align='center'>
