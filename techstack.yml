@@ -2,7 +2,7 @@ repo_name: 2lambda123/groupon
 report_id: 4a0a410e1a23b209bc0609d7baf856d0
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T07:55:51+00:00'
+timestamp: '2024-02-29T19:18:37+00:00'
 requested_by: snorkell-ai[bot]
 provider: github
 branch: master
@@ -178,3 +178,10 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 0.9.20
+  - name: YARD's default template vulnerable to Cross-site Scripting in generated
+      frames.html
+    cve_id: CVE-2024-27285
+    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
+    detected_date: Feb 29
+    severity: moderate
+    first_patched: 0.9.35
